@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<title>KOMAWARI</title>
+</head>
+<body>
+<div id="Toppage">
+    <svg class="header-container">
+        <rect id="header-container" rx="0" ry="0" x="0" y="0" width="1920" height="150">
+        </rect>
+    </svg>
+    <svg class="header-container">
+            <rect id="header-container" rx="0" ry="0" x="0" y="0" width="1920" height="150">
+            </rect>
+    </svg>    
+        <canvas  class="board"  id="board" width="1620" height="650"></canvas>
+    <svg class="stanp-container">
+        <rect id="stanp-container" rx="0" ry="0" x="0" y="0" width="296" height="141">
+        </rect>
+    </svg>
+    <svg class="option-container">
+        <rect id="option-container" rx="0" ry="0" x="0" y="0" width="592" height="141">
+        </rect>
+    </svg>
+    <svg class="undobutton">
+        <rect id="undobutton" rx="31" ry="31" x="0" y="0" width="255" height="62">
+        </rect>
+    </svg>
+    <svg class="clearbutton">
+        <rect id="clearbutton" rx="31.5" ry="31.5" x="0" y="0" width="255" height="63">
+        </rect>
+    </svg>
+    <svg class="good">
+        <rect id="good" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="confused">
+        <rect id="confused" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="sad">
+        <rect id="sad" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="joy">
+        <rect id="joy" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="house">
+        <rect id="house" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="shop">
+        <rect id="shop" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="blub">
+        <rect id="blub" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="circle">
+        <rect id="circle" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="red">
+        <rect id="red" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="pink">
+        <rect id="pink" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="blue">
+        <rect id="blue" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="yellow">
+        <rect id="yellow" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="green">
+        <rect id="green" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="cyan">
+        <rect id="cyan" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="purple">
+        <rect id="purple" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="cyanblue">
+        <rect id="cyanblue" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="mazenta">
+        <rect id="mazenta" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="orange">
+        <rect id="orange" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="yellowgreen">
+        <rect id="yellowgreen" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="darkgray">
+        <rect id="darkgray" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="black">
+        <rect id="black" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="white">
+        <rect id="white" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <div id="Undo">
+        <span>Undo</span>
+    </div>
+    <div id="All_Clear">
+        <span>All Clear</span>
+    </div>
+    <svg class="gray">
+        <rect id="gray" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <svg class="lightgreen">
+        <rect id="lightgreen" rx="0" ry="0" x="0" y="0" width="74" height="71">
+        </rect>
+    </svg>
+    <div id="downloadButton">
+        <div id="download_by">
+            <svg class="download_bz">
+                <rect id="downlaod_bz" rx="31" ry="31" x="0" y="0" width="216" height="128">
+                </rect>
+            </svg>
+        </div>
+    </div>
+    <img id="Rectangle" src="img/Rectangle.png" srcset="img/Rectangle.png 1x, img/Rectangle@2x.png 2x">
+        
+    <img id="icon_top" src="img/icon.png" srcset="img/icon.png 1x, img/icon@2x.png 2x">
+        
+    <img id="logo_top" src="img/logo.png" srcset="img/logo.png 1x, img/logo@2x.png 2x">
+        
+    <div id="logoutButton">
+        <div id="Logout">
+            <span>Logout</span>
+        </div>
+    </div>
+    <svg class="bold-container">
+        <rect id="option-container8" rx="35.5" ry="35.5" x="0" y="0" width="192" height="71">
+        </rect>
+    </svg>
+    <svg class="thin" viewBox="0 0 20 20">
+        <path id="thin" d="M 10 0 C 15.52284812927246 0 20 4.477152347564697 20 10 C 20 15.52284812927246 15.52284812927246 20 10 20 C 4.477152347564697 20 0 15.52284812927246 0 10 C 0 4.477152347564697 4.477152347564697 0 10 0 Z">
+        </path>
+    </svg>
+    <svg class="medium" viewBox="0 0 40 40">
+        <path id="medium" d="M 20 0 C 31.04569625854492 0 40 8.954304695129395 40 20 C 40 31.04569625854492 31.04569625854492 40 20 40 C 8.954304695129395 40 0 31.04569625854492 0 20 C 0 8.954304695129395 8.954304695129395 0 20 0 Z">
+        </path>
+    </svg>
+    <svg class="boldletter" viewBox="0 0 30 30">
+        <path id="boldletter" d="M 15 0 C 23.28427124023438 0 30 6.715728759765625 30 15 C 30 23.28427124023438 23.28427124023438 30 15 30 C 6.715728759765625 30 0 23.28427124023438 0 15 C 0 6.715728759765625 6.715728759765625 0 15 0 Z">
+        </path>
+    </svg>
+</div>
+<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="js/toppage.js"></script>
+
+</body>
